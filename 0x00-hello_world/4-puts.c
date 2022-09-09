@@ -3,7 +3,6 @@
 
 
 /**
- *
  * main - print in the put function
  *
  * Return: Always 0 (It is successful)
