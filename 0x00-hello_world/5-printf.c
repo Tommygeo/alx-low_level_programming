@@ -1,32 +1,18 @@
-#!/bin/bash
-#include<stdio.h>
+#include <stdio.h>
 
 
 
 /**
+ * main - print the string with the printf fuction
  *
- * * main - print the string in the put function 
- *
- * *Description: using the main function 
- *
- * this program prints "Programming is like building a multilingual puzzle
- *
- * * Return: 0
- *
- * */
-
+ * Return: Always 0 (this is successful)
+ */
 int main(void)
-
 {
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
-	    printf("with proper grammar, but the outcome is a piece of art,\n");
-
-	    return 0;
-
+	return (0);
 }
-
-02:45
-
 
 
 
