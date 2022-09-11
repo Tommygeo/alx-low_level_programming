@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+/**
+ * main - prints numbers between 0 to 99.
+ *
+ *  Return: Always 0 (this is successful)
+ */
+int main(void)
+{
+int i, e, g, h, op1, op2;
+
+i = e = g = h = 48;
+while (h < 58)
+{
+	g = 48;
+	while (g < 58)
+	{
+		e = 48;
+		while (e < 58)
+		{
+			i = 48;
+			while (e < 58)
+			{
+				putchar(h);
+				putchar(g);
+				putchar(' ');
+				putchar(e);
+				putchar(i);
+				if (h == 57 && g == 56 && e == 57 && i == 57)
+					break;
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+		}
+		e++;
+	}
+	g++;
+}
+h++;
+}
+putchar('\n');
+return (0);
+}
