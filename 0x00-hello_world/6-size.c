@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
-* main - print the string withe printf function
-*
-* Return: Always 0 (this is successful)
-*/
+ * main - print the string withe printf function
+ *
+ * Return: Always 0 (this is successful)
+ */
 int main(void)
 {
 	char a;
-        int b;
+	int b;
 	long int c;
 	long long int d;
 	float e;
