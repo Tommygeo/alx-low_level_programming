@@ -1,28 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - print sum of even valued fibonacci sequence ≤ 4000000
+ * _islower - checks if a character is lowercase.
+ * @c: the character to be checked
  *
- * Return: Always 0
+ * Return: 1 if character is lowercase, 0 otherwise
  */
-int main(void)
+int _islower(int c)
 {
-	unsigned long fib1 = 0, fib2 = 1, fibsum;
-	float tot_sum;
-
-	while (1)
-	{
-
-		fibsum = fib1 + fib2;
-		if (fibsum > 4000000)
-			break;
-		if ((fibsum % 2) == 0)
-			tot_sum += fibsum;
-
-		fib1 = fib2;
-		fib2 = fibsum;
-	}
-	printf("%.0f\n", tot_sum);
-
-	return (0);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
