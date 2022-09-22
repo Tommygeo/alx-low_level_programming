@@ -23,5 +23,5 @@ char *_strncat(char *dest, char *src, int n)
 		count++;
 		count2++;
 	}
-	trncat.c turn (dest);
+	return (dest);
 }
