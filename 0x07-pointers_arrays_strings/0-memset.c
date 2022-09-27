@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * *_memcpy - copies memory area
- * @dest: destination of the memory area
- * @src: memory area to copy from.
- * @n: number of bytes to copy
+ * *_memset - fills memory with a constant byte
+ * @s: memory to be filled
+ * @b: char to be copied
+ * @n: number of times b will be copied
  *
- * Return: pointer to dest.
+ * Return: pointer to the memory area s
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int j;
 
 	for (j = 0; j < n; j++)
 	{
-		dest[j] = src[j];
-
+		s[j] = b;
 	}
 
-	return (dest);
+	return (s);
 }
