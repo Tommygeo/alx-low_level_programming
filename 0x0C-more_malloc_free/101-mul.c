@@ -145,6 +145,6 @@ int main(int argc, char *argv[])
 	_print(b, fn - 1);
 	return (0);
 }
-			
+
 
 
